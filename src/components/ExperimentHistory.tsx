@@ -43,7 +43,7 @@ export function ExperimentHistory({ definition, experiments, completed, onSaveRe
                 <dl className="timeline-values">
                   <div><dt>{probability ? '预测概率' : `预测 ${definition.output.symbol}`}</dt><dd>{formatOutput(definition.id, experiment.prediction)}</dd></div>
                   <div><dt>{probability ? '理论概率' : `实际 ${definition.output.symbol}`}</dt><dd className="record-output">{formatOutput(definition.id, experiment.output)}</dd></div>
-                  <div><dt>{probability ? '误差（百分点）' : '差值'}</dt><dd>{formatDifference(definition.id, experiment.difference)}</dd></div>
+                  <div><dt>{probability ? '误差（百分点）' : '差值'}</dt><dd className={`record-difference${experiment.difference === 0 ? ' is-exact' : ''}`}>{formatDifference(definition.id, experiment.difference)}</dd></div>
                 </dl>
                 {completed ? (
                   <div className="saved-reflection">

@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react';
 import type { ExperimentInput, ExperimentRecord } from '../types';
 import { parsePrediction } from '../lib/prediction';
 import { formatDifference, formatInput, formatOutput } from '../lib/format';
@@ -30,7 +31,7 @@ function InputChoices({ values, selected, name, label, unit = '', onChange }: {
   onChange: (value: number) => void;
 }) {
   return (
-    <div className="input-options" style={{ gridTemplateColumns: `repeat(${values.length}, minmax(0, 1fr))` }}>
+    <div className="input-options" style={{ '--input-count': values.length } as CSSProperties}>
       {values.map((value) => (
         <label className="input-option" key={value}>
           <input
