@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+*.local
+*.log
+*.tsbuildinfo
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.tmp/
+tmp/
+coverage/
+.DS_Store
+Thumbs.db
