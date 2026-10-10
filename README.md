@@ -2,6 +2,8 @@
 
 **Learn by Breaking the Rules**
 
+[Live Demo](https://andylamyinwik.github.io/ruleshift-ai/)
+
 RuleShift AI is an interactive educational laboratory for exploring hidden mathematical rules. Students make predictions, conduct experiments, compare evidence, and form hypotheses through a scientific reasoning workflow. The interface uses Simplified Chinese.
 
 Built with React, TypeScript, Vite, and plain CSS. Sessions run entirely in the browser and reset when the page reloads.
