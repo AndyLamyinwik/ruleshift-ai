@@ -4,6 +4,8 @@
 
 [English](#english) · [繁體中文](#繁體中文) · [简体中文](#简体中文)
 
+📘 [简体中文图文使用说明书（Word 下载）](docs/RuleShift_AI_简体中文使用说明书.docx?raw=true)
+
 ## English
 
 [Live Demo](https://andylamyinwik.github.io/ruleshift-ai/)
@@ -116,6 +118,8 @@ Released under the [MIT License](LICENSE). Copyright © 2026 RuleShift AI contri
 如需在本機開發，請參閱上方英文的 [Getting started](#getting-started)；測試與建置指令見 [Testing and production build](#testing-and-production-build)。本專案採用 [MIT 授權](LICENSE)。
 
 ## 简体中文
+
+需要详细操作指导？[下载简体中文图文使用说明书（Word）](docs/RuleShift_AI_简体中文使用说明书.docx?raw=true)。
 
 **在探索中发现规律。** RuleShift AI 是一个交互式科学推理实验室：你可以先预测结果，再进行实验，通过观察、比较与反思，逐步找出每个宇宙中隐藏的数学规律。
 
